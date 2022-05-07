@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-fm-@mpyo_6&3slb)1iet*zeu+xe&8f4e^k^g*!^d@)57yxm)0g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['socialclonegroups.herokuapp.com',
+                 '127.0.0.1']
 
 
 # Application definition
