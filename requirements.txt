@@ -1,6 +1,6 @@
 argon2-cffi==21.3.0
 argon2-cffi-bindings==21.2.0
-asgiref @ file:///tmp/build/80754af9/asgiref_1625643473416/work
+
 bcrypt==3.2.0
 beautifulsoup4==4.11.1
 bootstrap4==0.1.0
