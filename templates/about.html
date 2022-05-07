@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block content %}
+<style>
+.about{
+    text-align: center
+}
+</style>
+<div class="about">
+
+<h3> This is a social media clone site in Django. <br><br> You can view groups and posts inside them.<br><br> You can also join groups and share new posts after logging in. </h3>
+<br>
+<form method="get" action="{% url 'login' %}">
+    <input type="submit" class='btn btn-primary' value="LogIn">
+</form>
+<br>
+
+
+<form method="get" action="{% url 'home' %}">
+    <input type="submit" class='btn btn-primary' value="Home Page">
+</form>
+</div>
+<div class="container">
+ <h1>Jakub Maciasz</h1>
+    <br>
+    <h2>About</h2><br>
+    <p>I am using Python in creating desktop and web applications and I am learning Django framework for creating more advanced websites.</p>
+<br><br>
+<h2>Education</h2><br>
+<h4 style="font-weight:bold; font-style:italic;">Akademia Górniczo Hutnicza - Krakow</h4>
+<p>Engineer of Education in technology and computer science. I am currently working on a master thesis: <span style="font-style: italic">Application streamlining the training process on the production line in Virtual Reality</span></p><br>
+<h4  style="font-weight:bold; font-style:italic;">Technical High School for Computer Science - Nowy Targ</h4>
+<p>Qualifications in the profession of an IT technician</p>
+<br><br>
+<h2>Experience</h2><br>
+<h4  style="font-weight:bold; font-style:italic;">OpenDoor Language School - Bournemouth, England</h4>
+<p>Intern in IT Sector. Main tasks and responsibilities: Creating websites with the use of CMS systems, managing the administrative work of the website, managing domains, organizing the database</p>
+{% endblock %}
+    </div>
+<html>
+<head>
+    <title>ABOUT</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+</body>
+</html>
